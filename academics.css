@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: snow;
+  }
+  
+  header {
+    background-color: #003366; /* Midnight Blue */
+    padding: 13px;
+    color: white;
+    display: flex;
+    justify-content: center; /* Center the nav bar */
+    align-items: center;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+  }
+  
+  header nav ul li {
+    margin: 0 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    color: #ffcc00; /* Hover color */
+  }
+  
+  footer {
+    background-color: #003366; /* Midnight Blue */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  #academics {
+    padding: 40px 20px;
+    background-color: white;
+  }
+  
+  #academics h1 {
+    font-size: 2.5em;
+    color: darkslategray;
+    margin-bottom: 20px;
+  }
+  
+  #academics h2, #academics h3 {
+    font-size: 2em;
+    margin-top: 40px;
+    color: darkslategray;
+  }
+  
+  #academics p, #academics ul {
+    color: dimgray;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  #academics ul {
+    margin-left: 20px;
+  }
+  
+  #academics ul li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: midnightblue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: royalblue;
+    text-decoration: underline;
+  }
+  
+  .academics-image {
+    max-width: 50%; /* Resize the image to fit the layout */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid lightgray;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: lightgray;
+    font-weight: bold;
+  }
+  
+  td {
+    background-color: snow;
+  }
+  
